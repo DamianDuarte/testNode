@@ -48,3 +48,5 @@ console.log("input 9 ", fizz_buzz(9));
 console.log("input 15 ", fizz_buzz(15));
 console.log("input 100 ", fizz_buzz(100));
 
+module.exports = fizz_buzz;
+

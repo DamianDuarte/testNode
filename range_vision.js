@@ -38,7 +38,7 @@ valor de la visión:3 + 4 + 3 + 1 = 11
 
 Sí, 8 es el valor mínimo de visión, tanto para el primer 3 como para el 1. Eso satisface los criterios, por lo que la función devuelve true. */
 
-function range_vision(n) {
+const range_vision = (n) => {
     const digits = n.toString();    
     let minVision = Infinity;    
     for (let i = 0; i < digits.length; i++) {
@@ -57,6 +57,8 @@ function range_vision(n) {
   }
 
   console.log(range_vision(34315));
+
+  module.exports = range_vision;
 
 
 

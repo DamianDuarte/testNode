@@ -21,7 +21,7 @@ Output: five
 Input: 99
 Output: odd */
 
-function number_cardinality(n) {
+const number_cardinality = (n) => {
     switch (true) {
         case (n % 10 === 0):
             return "zero";
@@ -40,3 +40,6 @@ console.log(number_cardinality(99));
 console.log(number_cardinality(0));
 console.log(number_cardinality(69));
 console.log(number_cardinality(48));
+
+
+module.exports = number_cardinality;
